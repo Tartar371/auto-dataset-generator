@@ -81,9 +81,52 @@ def post_json(url: str, payload: dict[str, Any], extra_headers: dict[str, str] |
     return fetch_bytes(url, method="POST", data=body, headers=headers, retries=2)
 
 
+def send_json(url: str, payload: dict[str, Any], method: str = "POST") -> Any:
+    raw = fetch_bytes(
+        url,
+        method=method,
+        data=json.dumps(payload).encode("utf-8"),
+        headers={"Content-Type": "application/json", "Accept": "application/json"},
+        retries=2,
+    )
+    try:
+        return json.loads(raw.decode("utf-8"))
+    except json.JSONDecodeError as exc:
+        raise HttpError(f"invalid JSON from {url}: {exc}") from exc
+
+
 def post_form(url: str, fields: dict[str, str], extra_headers: dict[str, str] | None = None) -> bytes:
     body = urllib.parse.urlencode(fields).encode("utf-8")
     headers = {"Content-Type": "application/x-www-form-urlencoded"}
     if extra_headers:
         headers.update(extra_headers)
     return fetch_bytes(url, method="POST", data=body, headers=headers, retries=2)
+
+
+def post_form_json(url: str, fields: dict[str, str], method: str = "POST") -> Any:
+    raw = fetch_bytes(
+        url,
+        method=method,
+        data=urllib.parse.urlencode(fields).encode("utf-8"),
+        headers={"Content-Type": "application/x-www-form-urlencoded", "Accept": "application/json"},
+        retries=2,
+    )
+    try:
+        return json.loads(raw.decode("utf-8"))
+    except json.JSONDecodeError as exc:
+        raise HttpError(f"invalid JSON from {url}: {exc}") from exc
+
+
+def put_raw(url: str, data: bytes, timeout: int = 120) -> dict[str, str]:
+    """PUT bytes with no extra headers (required for S3 presigned URLs)."""
+    req = urllib.request.Request(url, data=data, method="PUT")
+    try:
+        with urllib.request.urlopen(req, timeout=timeout) as resp:
+            return {str(k).lower(): str(v) for k, v in resp.headers.items()}
+    except urllib.error.HTTPError as exc:
+        body = b""
+        try:
+            body = exc.read()[:300]
+        except Exception:
+            pass
+        raise HttpError(f"HTTP {exc.code} PUT {url}: {exc.reason} {body}", status=exc.code) from exc

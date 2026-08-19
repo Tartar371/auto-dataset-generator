@@ -1,13 +1,14 @@
-"""Optional delivery: Telegram, Discord, generic webhook, Gumroad description ping."""
+"""Optional delivery: Telegram, Discord, generic webhook, Gumroad file upload."""
 
 from __future__ import annotations
 
 import logging
 import os
+from pathlib import Path
 from typing import Any
-from urllib.parse import urlencode
 
-from pipeline.http import HttpError, fetch_bytes, post_form, post_json
+from pipeline.gumroad import publish_daily_zip
+from pipeline.http import post_json
 
 log = logging.getLogger("pipeline.notify")
 
@@ -59,43 +60,24 @@ def notify_generic_webhook(bundle: dict[str, Any]) -> bool:
     return True
 
 
-def notify_gumroad(summary: str) -> bool:
-    """Best-effort: append a product description note via Gumroad API v2.
-
-    Gumroad does not reliably replace product files via API. The durable
-    downloadable artifact is the GitHub dataset / Release. This call is an
-    optional listing ping so a Gumroad page can mention the latest drop.
-    """
+def notify_gumroad(bundle: dict[str, Any], summary: str, day_dir: Path | None) -> bool:
     token = _env("GUMROAD_ACCESS_TOKEN")
     product_id = _env("GUMROAD_PRODUCT_ID")
     if not token or not product_id:
         log.info("Gumroad skipped (GUMROAD_ACCESS_TOKEN / GUMROAD_PRODUCT_ID not set)")
         return False
-    note = (
-        "Latest automated dataset drop (GitHub Actions).\n\n"
-        + summary[:1500]
-        + "\n\nFull files are attached to the GitHub repository datasets/ folder."
-    )
-    url = f"https://api.gumroad.com/v2/products/{product_id}"
-    body = urlencode({"access_token": token, "description": note}).encode("utf-8")
-    try:
-        fetch_bytes(
-            url,
-            method="PUT",
-            data=body,
-            headers={"Content-Type": "application/x-www-form-urlencoded"},
-            retries=2,
-        )
-        log.info("Gumroad product description updated")
-        return True
-    except HttpError:
-        # Some Gumroad tokens only allow POST form updates.
-        post_form(url, {"access_token": token, "description": note})
-        log.info("Gumroad product description updated via POST")
-        return True
+    if day_dir is None:
+        log.info("Gumroad skipped (no daily folder to zip)")
+        return False
+    publish_daily_zip(token, product_id, day_dir, bundle, summary, env_path=day_dir.parents[1] / ".env")
+    return True
 
 
-def deliver_all(bundle: dict[str, Any], telegram_text: str) -> dict[str, bool]:
+def deliver_all(
+    bundle: dict[str, Any],
+    telegram_text: str,
+    day_dir: Path | None = None,
+) -> dict[str, bool]:
     results = {
         "telegram": False,
         "discord": False,
@@ -115,7 +97,7 @@ def deliver_all(bundle: dict[str, Any], telegram_text: str) -> dict[str, bool]:
     except Exception as exc:  # noqa: BLE001
         log.exception("Generic webhook delivery failed: %s", exc)
     try:
-        results["gumroad"] = notify_gumroad(telegram_text)
+        results["gumroad"] = notify_gumroad(bundle, telegram_text, day_dir)
     except Exception as exc:  # noqa: BLE001
         log.exception("Gumroad delivery failed: %s", exc)
     return results

@@ -5,6 +5,7 @@ from __future__ import annotations
 import argparse
 import json
 import logging
+import os
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
@@ -15,6 +16,22 @@ from pipeline.report import build_html, build_markdown, build_telegram_text, fla
 from pipeline.store import Store
 
 log = logging.getLogger("pipeline")
+
+
+def load_dotenv(root: Path) -> None:
+    """Load KEY=VALUE pairs from .env without overriding existing environment variables."""
+    path = root / ".env"
+    if not path.is_file():
+        return
+    for raw in path.read_text(encoding="utf-8").splitlines():
+        line = raw.strip()
+        if not line or line.startswith("#") or "=" not in line:
+            continue
+        key, value = line.split("=", 1)
+        key = key.strip()
+        value = value.strip().strip("'").strip('"')
+        if key and key not in os.environ:
+            os.environ[key] = value
 
 
 def setup_logging(log_path: Path) -> None:
@@ -32,6 +49,7 @@ def setup_logging(log_path: Path) -> None:
 
 
 def run(root: Path, *, deliver: bool = True) -> dict:
+    load_dotenv(root)
     store = Store(root)
     setup_logging(store.logs / "pipeline.log")
     day = datetime.now(timezone.utc).date().isoformat()
@@ -55,7 +73,7 @@ def run(root: Path, *, deliver: bool = True) -> dict:
 
     delivery = {}
     if deliver:
-        delivery = deliver_all(bundle, build_telegram_text(bundle))
+        delivery = deliver_all(bundle, build_telegram_text(bundle), day_dir)
         log.info("delivery results: %s", delivery)
     else:
         log.info("delivery skipped")

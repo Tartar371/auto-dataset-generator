@@ -54,10 +54,21 @@ GitHub's `GITHUB_TOKEN` is injected automatically. No OpenAI key is required.
 | `TELEGRAM_CHAT_ID` | Your user/channel id (message the bot, then call `getUpdates`) |
 | `DISCORD_WEBHOOK_URL` | Discord channel webhook |
 | `GENERIC_WEBHOOK_URL` | Make.com / Zapier / n8n |
-| `GUMROAD_ACCESS_TOKEN` | Application token from Gumroad settings |
-| `GUMROAD_PRODUCT_ID` | Existing product to ping with the latest summary |
+| `GUMROAD_ACCESS_TOKEN` | From **Generate access token** after creating the app |
+| `GUMROAD_PRODUCT_ID` | The product’s `id` from Gumroad (product URL or API) |
 
-Gumroad's API cannot reliably replace product files. The durable downloadable product is this GitHub dataset (and GitHub Releases if you add them). Gumroad is an optional listing ping.
+### Gumroad app form (own account)
+
+Open [app.gumroad.com/settings/advanced](https://app.gumroad.com/settings/advanced) and create an application:
+
+| Field | Value |
+| --- | --- |
+| Application name | `auto-dataset-generator` |
+| Redirect URI | `http://127.0.0.1` |
+
+`http://127.0.0.1` is the official dummy redirect for a personal access token. This job does not run a website, so there is no public callback URL.
+
+Then click **Generate access token**. Create one digital product (any price). Add both values as GitHub Actions secrets. Each midnight run zips `bundle.json` + `crypto_markets.csv` + `report.md` and replaces the product file.
 
 ## Attribution
 

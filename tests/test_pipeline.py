@@ -1,12 +1,15 @@
 from __future__ import annotations
 
 import json
+import os
 import tempfile
 import unittest
+import zipfile
 from pathlib import Path
 from unittest.mock import patch
 
-from pipeline.main import run
+from pipeline.gumroad import zip_daily_artifacts
+from pipeline.main import load_dotenv, run
 from pipeline.report import build_markdown, build_telegram_text, flatten_market_rows
 from pipeline.store import Store
 
@@ -40,6 +43,20 @@ SAMPLE_BUNDLE = {
         "fx": {"date": "2026-08-19", "rates": {"EUR": 0.92, "ILS": 3.7}},
     },
 }
+
+
+class DotenvTests(unittest.TestCase):
+    def test_load_dotenv_does_not_override(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            (root / ".env").write_text("GUMROAD_PRODUCT_ID=from-file\nGUMROAD_ACCESS_TOKEN=file-token\n")
+            os.environ.pop("GUMROAD_PRODUCT_ID", None)
+            os.environ["GUMROAD_ACCESS_TOKEN"] = "already-set"
+            load_dotenv(root)
+            self.assertEqual(os.environ.get("GUMROAD_PRODUCT_ID"), "from-file")
+            self.assertEqual(os.environ.get("GUMROAD_ACCESS_TOKEN"), "already-set")
+            os.environ.pop("GUMROAD_PRODUCT_ID", None)
+            os.environ.pop("GUMROAD_ACCESS_TOKEN", None)
 
 
 class ReportTests(unittest.TestCase):
@@ -87,6 +104,33 @@ class StoreTests(unittest.TestCase):
             latest = json.loads((root / "datasets" / "latest.json").read_text())
             self.assertEqual(latest["date"], "2026-08-19")
             self.assertTrue((root / "docs" / "index.html").exists())
+
+
+class GumroadZipTests(unittest.TestCase):
+    def test_zip_includes_csv_and_report(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            day_dir = Path(tmp)
+            (day_dir / "bundle.json").write_text("{}\n")
+            (day_dir / "crypto_markets.csv").write_text("symbol,price_usd\nBTC,1\n")
+            (day_dir / "report.md").write_text("# hi\n")
+            zip_path = zip_daily_artifacts(day_dir, "2026-08-19")
+            self.assertTrue(zip_path.exists())
+            self.assertGreater(zip_path.stat().st_size, 32)
+            with zipfile.ZipFile(zip_path) as archive:
+                self.assertEqual(
+                    set(archive.namelist()),
+                    {"bundle.json", "crypto_markets.csv", "report.md"},
+                )
+
+
+class GumroadSafetyTests(unittest.TestCase):
+    def test_refuses_unrelated_product(self) -> None:
+        from pipeline.gumroad import _assert_safe_target
+        from pipeline.http import HttpError
+
+        with self.assertRaises(HttpError):
+            _assert_safe_target({"id": "x", "name": "Indie Stack Toolkit"})
+        _assert_safe_target({"id": "x", "name": "Daily Market & Tech Dataset"})
 
 
 class PipelineOfflineTests(unittest.TestCase):
