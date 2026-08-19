@@ -1,0 +1,15 @@
+{
+  "status": "ok",
+  "date": "2026-08-19",
+  "ok_collectors": [
+    "coingecko",
+    "fear_greed",
+    "fx",
+    "defillama",
+    "hackernews",
+    "arxiv"
+  ],
+  "failed_collectors": [],
+  "delivery": {},
+  "output_dir": "datasets/2026-08-19"
+}

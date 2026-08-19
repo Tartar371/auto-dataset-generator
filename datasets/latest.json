@@ -1,0 +1,14 @@
+{
+  "date": "2026-08-19",
+  "status": "ok",
+  "ok_collectors": [
+    "coingecko",
+    "fear_greed",
+    "fx",
+    "defillama",
+    "hackernews",
+    "arxiv"
+  ],
+  "failed_collectors": [],
+  "artifact": "datasets/2026-08-19/bundle.json"
+}
