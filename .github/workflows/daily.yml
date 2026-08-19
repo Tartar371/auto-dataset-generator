@@ -16,17 +16,29 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     timeout-minutes: 15
+    permissions:
+      contents: write
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
+        with:
+          persist-credentials: true
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: "3.12"
 
       - name: Unit tests
         run: python test.py
+
+      - name: Check delivery secrets
+        env:
+          GUMROAD_ACCESS_TOKEN: ${{ secrets.GUMROAD_ACCESS_TOKEN }}
+          GUMROAD_PRODUCT_ID: ${{ secrets.GUMROAD_PRODUCT_ID }}
+        run: |
+          if [ -n "$GUMROAD_ACCESS_TOKEN" ]; then echo "GUMROAD_ACCESS_TOKEN=set"; else echo "GUMROAD_ACCESS_TOKEN=missing"; fi
+          if [ -n "$GUMROAD_PRODUCT_ID" ]; then echo "GUMROAD_PRODUCT_ID=set"; else echo "GUMROAD_PRODUCT_ID=missing"; fi
 
       - name: Run pipeline
         env:
@@ -40,12 +52,14 @@ jobs:
 
       - name: Commit dataset artifacts
         run: |
+          set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add datasets docs logs/last_run.json
           if git diff --staged --quiet; then
             echo "No dataset changes"
-          else
-            git commit -m "data: daily dataset $(date -u +%Y-%m-%d)"
-            git push
+            exit 0
           fi
+          git commit -m "data: daily dataset $(date -u +%Y-%m-%d)"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push
