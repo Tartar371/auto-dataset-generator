@@ -10,6 +10,11 @@
     "arxiv"
   ],
   "failed_collectors": [],
-  "delivery": {},
+  "delivery": {
+    "telegram": false,
+    "discord": false,
+    "generic_webhook": false,
+    "gumroad": false
+  },
   "output_dir": "datasets/2026-08-19"
 }

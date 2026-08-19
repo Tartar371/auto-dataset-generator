@@ -19,21 +19,21 @@ Fear (46/100)
 
 | Rank | Symbol | Price | 24h | 7d | Market cap | Volume 24h |
 | ---: | --- | ---: | ---: | ---: | ---: | ---: |
-| 1 | BTC | $64,256 | +0.00% | +1.00% | $1289.73B | $16.56B |
-| 2 | ETH | $1,916 | +0.70% | +1.50% | $231.16B | $5.95B |
-| 3 | USDT | $0.9993 | +0.00% | +0.00% | $182.96B | $28.44B |
-| 4 | BNB | $601.5100 | -0.40% | -1.50% | $80.09B | $498.33M |
-| 5 | USDC | $0.9997 | +0.00% | +0.00% | $71.74B | $7.98B |
-| 6 | XRP | $1.0030 | +0.50% | -1.60% | $62.85B | $763.37M |
-| 7 | SOL | $76.9300 | +1.20% | +1.30% | $44.83B | $1.31B |
-| 8 | TRX | $0.3331 | +0.10% | -0.80% | $31.61B | $331.35M |
-| 9 | FIGR_HELOC | $1.0050 | -0.10% | -3.20% | $21.61B | $808.67M |
-| 10 | HYPE | $58.1000 | -2.90% | +6.30% | $12.92B | $251.01M |
-| 11 | DOGE | $0.0699 | +0.00% | -2.20% | $10.87B | $249.92M |
-| 12 | USDS | $1.0000 | +0.00% | +0.00% | $9.78B | $157.96M |
-| 13 | RAIN | $0.0131 | -0.20% | +1.00% | $9.36B | $28.19M |
-| 14 | LEO | $9.2400 | -1.80% | +1.30% | $8.50B | $424,352 |
-| 15 | ZEC | $503.4500 | -1.30% | +5.30% | $8.49B | $156.27M |
+| 1 | BTC | $64,236 | +0.00% | +1.00% | $1289.32B | $16.57B |
+| 2 | ETH | $1,915 | +0.70% | +1.50% | $231.11B | $5.93B |
+| 3 | USDT | $0.9993 | +0.00% | +0.00% | $182.96B | $28.48B |
+| 4 | BNB | $601.8200 | -0.40% | -1.50% | $80.14B | $499.61M |
+| 5 | USDC | $0.9997 | +0.00% | +0.00% | $71.76B | $8.01B |
+| 6 | XRP | $1.0040 | +0.50% | -1.60% | $62.92B | $763.41M |
+| 7 | SOL | $77.0400 | +1.20% | +1.30% | $44.91B | $1.32B |
+| 8 | TRX | $0.3331 | +0.10% | -0.80% | $31.62B | $332.64M |
+| 9 | FIGR_HELOC | $1.0050 | -0.10% | -3.20% | $21.61B | $808.65M |
+| 10 | HYPE | $58.2400 | -2.90% | +6.30% | $12.95B | $251.86M |
+| 11 | DOGE | $0.0700 | +0.00% | -2.20% | $10.89B | $251.03M |
+| 12 | USDS | $1.0000 | +0.00% | +0.00% | $9.78B | $161.40M |
+| 13 | RAIN | $0.0131 | -0.20% | +1.00% | $9.36B | $28.21M |
+| 14 | ZEC | $504.7400 | -1.30% | +5.30% | $8.52B | $154.48M |
+| 15 | LEO | $9.2400 | -1.80% | +1.30% | $8.50B | $424,246 |
 
 ## DefiLlama chain TVL (top 10)
 
@@ -52,14 +52,14 @@ Fear (46/100)
 
 ## Hacker News — top stories
 
-- [OpenLogi](https://openlogi.org/en) — 474 pts
-- [Cerebras CS-4](https://www.cerebras.ai/cs4) — 245 pts
-- [Palomar: A registry of Lean verified mathematics](https://terrytao.wordpress.com/2026/08/18/palomar-a-registry-of-lean-verified-mathematics/) — 87 pts
-- [Scientists stunned by children's lung recovery in ultra low emission zone](https://www.bbc.com/news/articles/c1l1r1zne1ro) — 205 pts
-- [Supersonic Trebuchet [video]](https://www.youtube.com/watch?v=Co57SfcT-h0) — 83 pts
-- [Being ambitious and being a dad](https://nicholascharriere.com/blog/being-ambitious-and-being-a-dad/) — 444 pts
-- [A 3D fruit fly on macOS desktop powered by the real FlyWire connectome](https://github.com/DenisSergeevitch/desktop-fly) — 254 pts
-- [The Vietnam Binh Chau (Chau Tan) Late Tang Wreck](https://www.koh-antique.com/client/tangwreck/tangwreck.html) — 34 pts
+- [OpenLogi](https://openlogi.org/en) — 501 pts
+- [Where Human Sleep Went Wrong](https://nautil.us/where-human-sleep-went-wrong-1283797) — 15 pts
+- [Cerebras CS-4](https://www.cerebras.ai/cs4) — 252 pts
+- [Palomar: A registry of Lean verified mathematics](https://terrytao.wordpress.com/2026/08/18/palomar-a-registry-of-lean-verified-mathematics/) — 90 pts
+- [Scientists stunned by children's lung recovery in ultra low emission zone](https://www.bbc.com/news/articles/c1l1r1zne1ro) — 218 pts
+- [Supersonic Trebuchet [video]](https://www.youtube.com/watch?v=Co57SfcT-h0) — 85 pts
+- [Being ambitious and being a dad](https://nicholascharriere.com/blog/being-ambitious-and-being-a-dad/) — 450 pts
+- [A 3D fruit fly on macOS desktop powered by the real FlyWire connectome](https://github.com/DenisSergeevitch/desktop-fly) — 257 pts
 
 ## Latest arXiv (cs.AI / cs.LG / q-fin.TR)
 
