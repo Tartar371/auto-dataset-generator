@@ -1,20 +1,24 @@
 {
-  "status": "ok",
-  "date": "2026-08-19",
+  "status": "partial",
+  "date": "2026-08-20",
   "ok_collectors": [
     "coingecko",
     "fear_greed",
     "fx",
     "defillama",
-    "hackernews",
-    "arxiv"
+    "hackernews"
   ],
-  "failed_collectors": [],
+  "failed_collectors": [
+    {
+      "collector": "arxiv",
+      "error": "network error for https://export.arxiv.org/api/query?search_query=cat:cs.AI+OR+cat:cs.LG+OR+cat:q-fin.TR&start=0&max_results=12&sortBy=submittedDate&sortOrder=descending: The read operation timed out"
+    }
+  ],
   "delivery": {
     "telegram": false,
     "discord": false,
     "generic_webhook": false,
     "gumroad": false
   },
-  "output_dir": "datasets/2026-08-19"
+  "output_dir": "datasets/2026-08-20"
 }
