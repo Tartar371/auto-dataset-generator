@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-20",
+  "date": "2026-08-21",
   "status": "partial",
   "ok_collectors": [
     "coingecko",
@@ -14,5 +14,5 @@
       "error": "network error for https://export.arxiv.org/api/query?search_query=cat:cs.AI+OR+cat:cs.LG+OR+cat:q-fin.TR&start=0&max_results=12&sortBy=submittedDate&sortOrder=descending: The read operation timed out"
     }
   ],
-  "artifact": "datasets/2026-08-20/bundle.json"
+  "artifact": "datasets/2026-08-21/bundle.json"
 }
