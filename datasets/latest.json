@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-21",
+  "date": "2026-08-22",
   "status": "partial",
   "ok_collectors": [
     "coingecko",
@@ -11,8 +11,8 @@
   "failed_collectors": [
     {
       "collector": "arxiv",
-      "error": "network error for https://export.arxiv.org/api/query?search_query=cat:cs.AI+OR+cat:cs.LG+OR+cat:q-fin.TR&start=0&max_results=12&sortBy=submittedDate&sortOrder=descending: The read operation timed out"
+      "error": "HTTP 429 for https://export.arxiv.org/api/query?search_query=cat:cs.AI+OR+cat:cs.LG+OR+cat:q-fin.TR&start=0&max_results=12&sortBy=submittedDate&sortOrder=descending: Unknown Error"
     }
   ],
-  "artifact": "datasets/2026-08-21/bundle.json"
+  "artifact": "datasets/2026-08-22/bundle.json"
 }
