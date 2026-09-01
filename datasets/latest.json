@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-31",
+  "date": "2026-09-01",
   "status": "ok",
   "ok_collectors": [
     "coingecko",
@@ -10,5 +10,5 @@
     "arxiv"
   ],
   "failed_collectors": [],
-  "artifact": "datasets/2026-08-31/bundle.json"
+  "artifact": "datasets/2026-09-01/bundle.json"
 }
