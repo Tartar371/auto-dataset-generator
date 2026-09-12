@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "date": "2026-09-11",
+  "date": "2026-09-12",
   "ok_collectors": [
     "coingecko",
     "fear_greed",
@@ -16,5 +16,5 @@
     "generic_webhook": false,
     "gumroad": false
   },
-  "output_dir": "datasets/2026-09-11"
+  "output_dir": "datasets/2026-09-12"
 }
