@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-17",
+  "date": "2026-09-18",
   "status": "partial",
   "ok_collectors": [
     "coingecko",
@@ -14,5 +14,5 @@
       "error": "HTTP 406 for https://export.arxiv.org/api/query?search_query=cat:cs.AI+OR+cat:cs.LG+OR+cat:q-fin.TR&start=0&max_results=12&sortBy=submittedDate&sortOrder=descending: Not Acceptable"
     }
   ],
-  "artifact": "datasets/2026-09-17/bundle.json"
+  "artifact": "datasets/2026-09-18/bundle.json"
 }
