@@ -1,18 +1,18 @@
 {
-  "date": "2026-09-28",
+  "date": "2026-09-29",
   "status": "partial",
   "ok_collectors": [
-    "coingecko",
     "fear_greed",
     "fx",
     "defillama",
-    "hackernews"
+    "hackernews",
+    "arxiv"
   ],
   "failed_collectors": [
     {
-      "collector": "arxiv",
-      "error": "HTTP 406 for https://export.arxiv.org/api/query?search_query=cat:cs.AI+OR+cat:cs.LG+OR+cat:q-fin.TR&start=0&max_results=12&sortBy=submittedDate&sortOrder=descending: Not Acceptable"
+      "collector": "coingecko",
+      "error": "HTTP 403 for https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=50&page=1&sparkline=false&price_change_percentage=24h,7d: Forbidden"
     }
   ],
-  "artifact": "datasets/2026-09-28/bundle.json"
+  "artifact": "datasets/2026-09-29/bundle.json"
 }
