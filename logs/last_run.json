@@ -1,24 +1,20 @@
 {
-  "status": "partial",
-  "date": "2026-09-29",
+  "status": "ok",
+  "date": "2026-09-30",
   "ok_collectors": [
+    "coingecko",
     "fear_greed",
     "fx",
     "defillama",
     "hackernews",
     "arxiv"
   ],
-  "failed_collectors": [
-    {
-      "collector": "coingecko",
-      "error": "HTTP 403 for https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=50&page=1&sparkline=false&price_change_percentage=24h,7d: Forbidden"
-    }
-  ],
+  "failed_collectors": [],
   "delivery": {
     "telegram": false,
     "discord": false,
     "generic_webhook": false,
     "gumroad": false
   },
-  "output_dir": "datasets/2026-09-29"
+  "output_dir": "datasets/2026-09-30"
 }

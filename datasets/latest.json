@@ -1,18 +1,14 @@
 {
-  "date": "2026-09-29",
-  "status": "partial",
+  "date": "2026-09-30",
+  "status": "ok",
   "ok_collectors": [
+    "coingecko",
     "fear_greed",
     "fx",
     "defillama",
     "hackernews",
     "arxiv"
   ],
-  "failed_collectors": [
-    {
-      "collector": "coingecko",
-      "error": "HTTP 403 for https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=50&page=1&sparkline=false&price_change_percentage=24h,7d: Forbidden"
-    }
-  ],
-  "artifact": "datasets/2026-09-29/bundle.json"
+  "failed_collectors": [],
+  "artifact": "datasets/2026-09-30/bundle.json"
 }
