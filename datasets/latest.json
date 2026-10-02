@@ -1,18 +1,14 @@
 {
-  "date": "2026-10-01",
-  "status": "partial",
+  "date": "2026-10-02",
+  "status": "ok",
   "ok_collectors": [
     "coingecko",
     "fear_greed",
     "fx",
     "defillama",
-    "hackernews"
+    "hackernews",
+    "arxiv"
   ],
-  "failed_collectors": [
-    {
-      "collector": "arxiv",
-      "error": "HTTP 406 for https://export.arxiv.org/api/query?search_query=cat:cs.AI+OR+cat:cs.LG+OR+cat:q-fin.TR&start=0&max_results=12&sortBy=submittedDate&sortOrder=descending: Not Acceptable"
-    }
-  ],
-  "artifact": "datasets/2026-10-01/bundle.json"
+  "failed_collectors": [],
+  "artifact": "datasets/2026-10-02/bundle.json"
 }
