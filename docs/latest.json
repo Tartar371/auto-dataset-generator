@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-25",
-  "generated_at": "2026-10-25T04:21:47Z",
+  "date": "2026-10-26",
+  "generated_at": "2026-10-26T04:25:01Z",
   "status": "ok",
   "ok_collectors": [
     "coingecko",
@@ -14,7 +14,7 @@
   "payloads": {
     "coingecko": {
       "source": "coingecko",
-      "fetched_at": "2026-10-25T04:21:45Z",
+      "fetched_at": "2026-10-26T04:24:58Z",
       "count": 50,
       "items": [
         {
@@ -22,182 +22,182 @@
           "symbol": "BTC",
           "name": "Bitcoin",
           "rank": 1,
-          "price_usd": 80773,
-          "market_cap_usd": 1623792714610,
-          "volume_24h_usd": 20992633644,
-          "change_24h_pct": -0.04208,
-          "change_7d_pct": -1.1728,
+          "price_usd": 79861,
+          "market_cap_usd": 1605166868613,
+          "volume_24h_usd": 17457168329,
+          "change_24h_pct": -1.18581,
+          "change_7d_pct": -3.7732,
           "ath": 126080,
           "atl": 67.81,
-          "last_updated": "2026-10-25T04:19:57.000Z"
+          "last_updated": "2026-10-26T04:22:54.000Z"
         },
         {
           "id": "ethereum",
           "symbol": "ETH",
           "name": "Ethereum",
           "rank": 2,
-          "price_usd": 2361.17,
-          "market_cap_usd": 288443122895,
-          "volume_24h_usd": 8889920210,
-          "change_24h_pct": -0.73055,
-          "change_7d_pct": -2.2543,
+          "price_usd": 2310.99,
+          "market_cap_usd": 282197530456,
+          "volume_24h_usd": 7795378102,
+          "change_24h_pct": -2.22713,
+          "change_7d_pct": -5.1139,
           "ath": 4946.05,
           "atl": 0.432979,
-          "last_updated": "2026-10-25T04:19:57.000Z"
+          "last_updated": "2026-10-26T04:22:54.000Z"
         },
         {
           "id": "tether",
           "symbol": "USDT",
           "name": "Tether",
           "rank": 3,
-          "price_usd": 0.999107,
-          "market_cap_usd": 182461236291,
-          "volume_24h_usd": 35914647422,
-          "change_24h_pct": -0.00073,
-          "change_7d_pct": -0.0012,
+          "price_usd": 0.998968,
+          "market_cap_usd": 182369990740,
+          "volume_24h_usd": 29654703180,
+          "change_24h_pct": 0.01967,
+          "change_7d_pct": 0.0098,
           "ath": 1.32,
           "atl": 0.572521,
-          "last_updated": "2026-10-25T04:19:57.000Z"
+          "last_updated": "2026-10-26T04:22:54.000Z"
         },
         {
           "id": "binancecoin",
           "symbol": "BNB",
           "name": "BNB",
           "rank": 4,
-          "price_usd": 745.01,
-          "market_cap_usd": 98016079282,
-          "volume_24h_usd": 839223325,
-          "change_24h_pct": 0.85792,
-          "change_7d_pct": 3.2832,
+          "price_usd": 739.44,
+          "market_cap_usd": 97215825792,
+          "volume_24h_usd": 683120123,
+          "change_24h_pct": -0.89082,
+          "change_7d_pct": 1.1504,
           "ath": 1369.99,
           "atl": 0.0398177,
-          "last_updated": "2026-10-25T04:19:57.000Z"
+          "last_updated": "2026-10-26T04:22:54.000Z"
         },
         {
           "id": "ripple",
           "symbol": "XRP",
           "name": "XRP",
           "rank": 5,
-          "price_usd": 1.31,
-          "market_cap_usd": 82875930971,
-          "volume_24h_usd": 1334499737,
-          "change_24h_pct": 1.35887,
-          "change_7d_pct": 0.9838,
+          "price_usd": 1.28,
+          "market_cap_usd": 81220187492,
+          "volume_24h_usd": 1102163576,
+          "change_24h_pct": -2.0947,
+          "change_7d_pct": -2.6754,
           "ath": 3.65,
           "atl": 0.00268621,
-          "last_updated": "2026-10-25T04:19:57.000Z"
+          "last_updated": "2026-10-26T04:22:54.000Z"
         },
         {
           "id": "usd-coin",
           "symbol": "USDC",
           "name": "USDC",
           "rank": 6,
-          "price_usd": 0.999603,
-          "market_cap_usd": 71578616126,
-          "volume_24h_usd": 6656306069,
-          "change_24h_pct": -0.01384,
-          "change_7d_pct": -0.0173,
+          "price_usd": 0.999723,
+          "market_cap_usd": 71499391655,
+          "volume_24h_usd": 6747488517,
+          "change_24h_pct": 0.01076,
+          "change_7d_pct": -0.0051,
           "ath": 1.043,
           "atl": 0.877647,
-          "last_updated": "2026-10-25T04:19:57.000Z"
+          "last_updated": "2026-10-26T04:22:54.000Z"
         },
         {
           "id": "solana",
           "symbol": "SOL",
           "name": "Solana",
           "rank": 7,
-          "price_usd": 102.42,
-          "market_cap_usd": 60404348309,
-          "volume_24h_usd": 2268766584,
-          "change_24h_pct": -0.1057,
-          "change_7d_pct": -1.5205,
+          "price_usd": 100.62,
+          "market_cap_usd": 59318721431,
+          "volume_24h_usd": 1757505171,
+          "change_24h_pct": -1.82834,
+          "change_7d_pct": -5.0184,
           "ath": 293.31,
           "atl": 0.500801,
-          "last_updated": "2026-10-25T04:19:57.000Z"
+          "last_updated": "2026-10-26T04:22:54.000Z"
         },
         {
           "id": "tron",
           "symbol": "TRX",
           "name": "TRON",
           "rank": 8,
-          "price_usd": 0.328891,
-          "market_cap_usd": 31245124836,
-          "volume_24h_usd": 228335788,
-          "change_24h_pct": -0.25931,
-          "change_7d_pct": -1.2949,
+          "price_usd": 0.33011,
+          "market_cap_usd": 31364144534,
+          "volume_24h_usd": 269079698,
+          "change_24h_pct": 0.35489,
+          "change_7d_pct": -0.7448,
           "ath": 0.431288,
           "atl": 0.00180434,
-          "last_updated": "2026-10-25T04:19:57.000Z"
+          "last_updated": "2026-10-26T04:22:54.000Z"
         },
         {
           "id": "figure-heloc",
           "symbol": "FIGR_HELOC",
           "name": "Figure Heloc",
           "rank": 9,
-          "price_usd": 1.063,
-          "market_cap_usd": 27187801823,
-          "volume_24h_usd": 4089064,
-          "change_24h_pct": 4.15628,
-          "change_7d_pct": -0.3863,
+          "price_usd": 1.056,
+          "market_cap_usd": 27000066134,
+          "volume_24h_usd": 101981,
+          "change_24h_pct": -0.69031,
+          "change_7d_pct": -1.0846,
           "ath": 1.075,
           "atl": 0.155357,
-          "last_updated": "2026-10-25T04:19:57.000Z"
+          "last_updated": "2026-10-25T13:14:38.000Z"
         },
         {
           "id": "zcash",
           "symbol": "ZEC",
           "name": "Zcash",
           "rank": 10,
-          "price_usd": 1215.44,
-          "market_cap_usd": 20676892367,
-          "volume_24h_usd": 637087404,
-          "change_24h_pct": 3.72399,
-          "change_7d_pct": 5.5493,
+          "price_usd": 1198.09,
+          "market_cap_usd": 20360364170,
+          "volume_24h_usd": 644596233,
+          "change_24h_pct": -1.55212,
+          "change_7d_pct": 0.7104,
           "ath": 3191.93,
           "atl": 16.08,
-          "last_updated": "2026-10-25T04:19:57.000Z"
+          "last_updated": "2026-10-26T04:22:54.000Z"
         },
         {
           "id": "hyperliquid",
           "symbol": "HYPE",
           "name": "Hyperliquid",
           "rank": 11,
-          "price_usd": 76.66,
-          "market_cap_usd": 17048854987,
-          "volume_24h_usd": 737771473,
-          "change_24h_pct": -0.65309,
-          "change_7d_pct": -3.0179,
+          "price_usd": 75.5,
+          "market_cap_usd": 16795908429,
+          "volume_24h_usd": 544951767,
+          "change_24h_pct": -1.60254,
+          "change_7d_pct": -5.3129,
           "ath": 97.96,
           "atl": 3.81,
-          "last_updated": "2026-10-25T04:19:57.000Z"
+          "last_updated": "2026-10-26T04:22:54.000Z"
         },
         {
           "id": "dogecoin",
           "symbol": "DOGE",
           "name": "Dogecoin",
           "rank": 12,
-          "price_usd": 0.077808,
-          "market_cap_usd": 12173047410,
-          "volume_24h_usd": 526580266,
-          "change_24h_pct": -1.17731,
-          "change_7d_pct": -2.19,
+          "price_usd": 0.076556,
+          "market_cap_usd": 11974014592,
+          "volume_24h_usd": 367445140,
+          "change_24h_pct": -1.68469,
+          "change_7d_pct": -4.692,
           "ath": 0.731578,
           "atl": 8.69e-05,
-          "last_updated": "2026-10-25T04:19:57.000Z"
+          "last_updated": "2026-10-26T04:22:54.000Z"
         },
         {
           "id": "monero",
           "symbol": "XMR",
           "name": "Monero",
           "rank": 13,
-          "price_usd": 609.69,
-          "market_cap_usd": 11491107226,
-          "volume_24h_usd": 106071747,
-          "change_24h_pct": 4.93725,
-          "change_7d_pct": 1.6971,
+          "price_usd": 593.43,
+          "market_cap_usd": 11154161747,
+          "volume_24h_usd": 106487398,
+          "change_24h_pct": -2.68686,
+          "change_7d_pct": -1.4147,
           "ath": 797.73,
           "atl": 0.216177,
-          "last_updated": "2026-10-25T04:19:57.000Z"
+          "last_updated": "2026-10-26T04:22:54.000Z"
         },
         {
           "id": "usds",
@@ -205,139 +205,139 @@
           "name": "USDS",
           "rank": 14,
           "price_usd": 1.0,
-          "market_cap_usd": 10029165157,
-          "volume_24h_usd": 66497378,
-          "change_24h_pct": 0.00201,
-          "change_7d_pct": 0.0196,
+          "market_cap_usd": 9996984874,
+          "volume_24h_usd": 196311900,
+          "change_24h_pct": -0.02368,
+          "change_7d_pct": -0.0009,
           "ath": 1.057,
           "atl": 0.948265,
-          "last_updated": "2026-10-25T04:19:57.000Z"
+          "last_updated": "2026-10-26T04:22:54.000Z"
         },
         {
           "id": "whitebit",
           "symbol": "WBT",
           "name": "WhiteBIT Coin",
           "rank": 15,
-          "price_usd": 77.9,
-          "market_cap_usd": 9253406512,
-          "volume_24h_usd": 81018667,
-          "change_24h_pct": -0.75421,
-          "change_7d_pct": -2.6054,
+          "price_usd": 76.86,
+          "market_cap_usd": 9125120559,
+          "volume_24h_usd": 103668517,
+          "change_24h_pct": -1.39063,
+          "change_7d_pct": -5.1803,
           "ath": 87.91,
           "atl": 3.06,
-          "last_updated": "2026-10-25T04:19:57.000Z"
+          "last_updated": "2026-10-26T04:22:54.000Z"
         },
         {
           "id": "chainlink",
           "symbol": "LINK",
           "name": "Chainlink",
           "rank": 16,
-          "price_usd": 11.58,
-          "market_cap_usd": 8877029570,
-          "volume_24h_usd": 233373767,
-          "change_24h_pct": -2.14945,
-          "change_7d_pct": -3.7051,
+          "price_usd": 11.36,
+          "market_cap_usd": 8705081195,
+          "volume_24h_usd": 197868774,
+          "change_24h_pct": -1.97206,
+          "change_7d_pct": -7.2799,
           "ath": 52.7,
           "atl": 0.148183,
-          "last_updated": "2026-10-25T04:19:57.000Z"
+          "last_updated": "2026-10-26T04:22:54.000Z"
         },
         {
           "id": "leo-token",
           "symbol": "LEO",
           "name": "LEO Token",
           "rank": 17,
-          "price_usd": 9.04,
-          "market_cap_usd": 8313353879,
-          "volume_24h_usd": 125835,
-          "change_24h_pct": 0.32548,
-          "change_7d_pct": -0.0382,
+          "price_usd": 9.01,
+          "market_cap_usd": 8287157342,
+          "volume_24h_usd": 23044,
+          "change_24h_pct": -0.31682,
+          "change_7d_pct": -0.2272,
           "ath": 10.61,
           "atl": 0.799859,
-          "last_updated": "2026-10-25T04:19:57.000Z"
+          "last_updated": "2026-10-26T04:22:54.000Z"
         },
         {
           "id": "cardano",
           "symbol": "ADA",
           "name": "Cardano",
           "rank": 18,
-          "price_usd": 0.207824,
-          "market_cap_usd": 7806925244,
-          "volume_24h_usd": 255563884,
-          "change_24h_pct": -1.74763,
-          "change_7d_pct": -5.7943,
+          "price_usd": 0.202365,
+          "market_cap_usd": 7599520568,
+          "volume_24h_usd": 190176541,
+          "change_24h_pct": -2.72864,
+          "change_7d_pct": -9.3564,
           "ath": 3.09,
           "atl": 0.01925275,
-          "last_updated": "2026-10-25T04:19:57.000Z"
-        },
-        {
-          "id": "stellar",
-          "symbol": "XLM",
-          "name": "Stellar",
-          "rank": 19,
-          "price_usd": 0.171405,
-          "market_cap_usd": 6038331974,
-          "volume_24h_usd": 91455789,
-          "change_24h_pct": -0.84467,
-          "change_7d_pct": -3.5428,
-          "ath": 0.875563,
-          "atl": 0.00047612,
-          "last_updated": "2026-10-25T04:19:57.000Z"
-        },
-        {
-          "id": "near",
-          "symbol": "NEAR",
-          "name": "NEAR Protocol",
-          "rank": 20,
-          "price_usd": 4.49,
-          "market_cap_usd": 5878973796,
-          "volume_24h_usd": 660159155,
-          "change_24h_pct": -3.13297,
-          "change_7d_pct": -10.4164,
-          "ath": 20.44,
-          "atl": 0.526762,
-          "last_updated": "2026-10-25T04:19:57.000Z"
+          "last_updated": "2026-10-26T04:22:54.000Z"
         },
         {
           "id": "rain",
           "symbol": "RAIN",
           "name": "Rain",
-          "rank": 21,
-          "price_usd": 0.00819907,
-          "market_cap_usd": 5827575219,
-          "volume_24h_usd": 15141119,
-          "change_24h_pct": 0.00451,
-          "change_7d_pct": -11.5959,
+          "rank": 19,
+          "price_usd": 0.00834262,
+          "market_cap_usd": 5929367881,
+          "volume_24h_usd": 16578633,
+          "change_24h_pct": 1.62251,
+          "change_7d_pct": -10.8328,
           "ath": 0.01946402,
           "atl": 0.00222126,
-          "last_updated": "2026-10-25T04:19:57.000Z"
+          "last_updated": "2026-10-26T04:22:54.000Z"
+        },
+        {
+          "id": "stellar",
+          "symbol": "XLM",
+          "name": "Stellar",
+          "rank": 20,
+          "price_usd": 0.167482,
+          "market_cap_usd": 5898779336,
+          "volume_24h_usd": 82534738,
+          "change_24h_pct": -2.31509,
+          "change_7d_pct": -6.8009,
+          "ath": 0.875563,
+          "atl": 0.00047612,
+          "last_updated": "2026-10-26T04:22:54.000Z"
+        },
+        {
+          "id": "near",
+          "symbol": "NEAR",
+          "name": "NEAR Protocol",
+          "rank": 21,
+          "price_usd": 4.48,
+          "market_cap_usd": 5869860329,
+          "volume_24h_usd": 483814628,
+          "change_24h_pct": -0.19907,
+          "change_7d_pct": -11.4429,
+          "ath": 20.44,
+          "atl": 0.526762,
+          "last_updated": "2026-10-26T04:22:54.000Z"
         },
         {
           "id": "bitcoin-cash",
           "symbol": "BCH",
           "name": "Bitcoin Cash",
           "rank": 22,
-          "price_usd": 277.12,
-          "market_cap_usd": 5572519219,
-          "volume_24h_usd": 118852480,
-          "change_24h_pct": -0.09343,
-          "change_7d_pct": 0.3251,
+          "price_usd": 278.3,
+          "market_cap_usd": 5592470641,
+          "volume_24h_usd": 109191805,
+          "change_24h_pct": 0.27854,
+          "change_7d_pct": -0.4365,
           "ath": 3785.82,
           "atl": 76.93,
-          "last_updated": "2026-10-25T04:19:57.000Z"
+          "last_updated": "2026-10-26T04:22:54.000Z"
         },
         {
           "id": "ethena-usde",
           "symbol": "USDE",
           "name": "Ethena USDe",
           "rank": 23,
-          "price_usd": 0.999484,
-          "market_cap_usd": 4586846497,
-          "volume_24h_usd": 15636040,
-          "change_24h_pct": -0.00356,
-          "change_7d_pct": 0.0003,
+          "price_usd": 0.999501,
+          "market_cap_usd": 4581995654,
+          "volume_24h_usd": 13548872,
+          "change_24h_pct": 1e-05,
+          "change_7d_pct": -0.0101,
           "ath": 1.034,
           "atl": 0.929486,
-          "last_updated": "2026-10-25T04:19:57.000Z"
+          "last_updated": "2026-10-26T04:22:54.000Z"
         },
         {
           "id": "dai",
@@ -345,139 +345,139 @@
           "name": "Dai",
           "rank": 24,
           "price_usd": 1.0,
-          "market_cap_usd": 4534739137,
-          "volume_24h_usd": 50630623,
-          "change_24h_pct": -0.0154,
-          "change_7d_pct": -0.0115,
+          "market_cap_usd": 4526040821,
+          "volume_24h_usd": 55047063,
+          "change_24h_pct": -0.00914,
+          "change_7d_pct": 0.0154,
           "ath": 1.22,
           "atl": 0.88196,
-          "last_updated": "2026-10-25T04:19:57.000Z"
+          "last_updated": "2026-10-26T04:22:54.000Z"
         },
         {
           "id": "litecoin",
           "symbol": "LTC",
           "name": "Litecoin",
           "rank": 25,
-          "price_usd": 56.92,
-          "market_cap_usd": 4424577340,
-          "volume_24h_usd": 206673587,
-          "change_24h_pct": -0.3719,
-          "change_7d_pct": -3.4106,
+          "price_usd": 56.33,
+          "market_cap_usd": 4379030913,
+          "volume_24h_usd": 182897181,
+          "change_24h_pct": -1.1216,
+          "change_7d_pct": -5.8642,
           "ath": 410.26,
           "atl": 1.15,
-          "last_updated": "2026-10-25T04:19:57.000Z"
+          "last_updated": "2026-10-26T04:22:54.000Z"
         },
         {
           "id": "uniswap",
           "symbol": "UNI",
           "name": "Uniswap",
           "rank": 26,
-          "price_usd": 6.81,
-          "market_cap_usd": 4253979160,
-          "volume_24h_usd": 286856045,
-          "change_24h_pct": -2.34677,
-          "change_7d_pct": -6.0512,
+          "price_usd": 6.85,
+          "market_cap_usd": 4276593944,
+          "volume_24h_usd": 228995385,
+          "change_24h_pct": 0.6506,
+          "change_7d_pct": -6.4356,
           "ath": 44.92,
           "atl": 1.03,
-          "last_updated": "2026-10-25T04:19:57.000Z"
+          "last_updated": "2026-10-26T04:22:54.000Z"
         },
         {
           "id": "canton-network",
           "symbol": "CC",
           "name": "Canton",
           "rank": 27,
-          "price_usd": 0.101279,
-          "market_cap_usd": 4042470892,
-          "volume_24h_usd": 10230409,
-          "change_24h_pct": -1.98492,
-          "change_7d_pct": -1.1682,
+          "price_usd": 0.100454,
+          "market_cap_usd": 4009957991,
+          "volume_24h_usd": 7934592,
+          "change_24h_pct": -0.96038,
+          "change_7d_pct": -1.4045,
           "ath": 0.194152,
           "atl": 0.059024,
-          "last_updated": "2026-10-25T04:19:57.000Z"
-        },
-        {
-          "id": "avalanche-2",
-          "symbol": "AVAX",
-          "name": "Avalanche",
-          "rank": 28,
-          "price_usd": 8.95,
-          "market_cap_usd": 3975021898,
-          "volume_24h_usd": 198916744,
-          "change_24h_pct": -0.92101,
-          "change_7d_pct": -8.5974,
-          "ath": 144.96,
-          "atl": 2.8,
-          "last_updated": "2026-10-25T04:19:57.000Z"
+          "last_updated": "2026-10-26T04:22:54.000Z"
         },
         {
           "id": "usd1-wlfi",
           "symbol": "USD1",
           "name": "USD1",
-          "rank": 29,
-          "price_usd": 0.998996,
-          "market_cap_usd": 3941863156,
-          "volume_24h_usd": 522032987,
-          "change_24h_pct": 0.00566,
-          "change_7d_pct": -0.0263,
+          "rank": 28,
+          "price_usd": 0.998901,
+          "market_cap_usd": 3938573790,
+          "volume_24h_usd": 552644757,
+          "change_24h_pct": -0.00951,
+          "change_7d_pct": -0.0411,
           "ath": 1.048,
           "atl": 0.988762,
-          "last_updated": "2026-10-25T04:19:57.000Z"
+          "last_updated": "2026-10-26T04:22:54.000Z"
+        },
+        {
+          "id": "avalanche-2",
+          "symbol": "AVAX",
+          "name": "Avalanche",
+          "rank": 29,
+          "price_usd": 8.84,
+          "market_cap_usd": 3922708312,
+          "volume_24h_usd": 148944064,
+          "change_24h_pct": -1.33074,
+          "change_7d_pct": -10.116,
+          "ath": 144.96,
+          "atl": 2.8,
+          "last_updated": "2026-10-26T04:22:54.000Z"
         },
         {
           "id": "sui",
           "symbol": "SUI",
           "name": "Sui",
           "rank": 30,
-          "price_usd": 0.935358,
-          "market_cap_usd": 3852442129,
-          "volume_24h_usd": 300631579,
-          "change_24h_pct": -2.70409,
-          "change_7d_pct": -4.6306,
+          "price_usd": 0.907402,
+          "market_cap_usd": 3735297279,
+          "volume_24h_usd": 303026451,
+          "change_24h_pct": -3.07953,
+          "change_7d_pct": -10.2087,
           "ath": 5.35,
           "atl": 0.364846,
-          "last_updated": "2026-10-25T04:19:57.000Z"
+          "last_updated": "2026-10-26T04:22:54.000Z"
         },
         {
           "id": "the-open-network",
           "symbol": "GRAM",
           "name": "Gram (prev. Toncoin)",
           "rank": 31,
-          "price_usd": 1.25,
-          "market_cap_usd": 3536426483,
-          "volume_24h_usd": 35912304,
-          "change_24h_pct": 0.46644,
-          "change_7d_pct": -7.8889,
+          "price_usd": 1.24,
+          "market_cap_usd": 3508154294,
+          "volume_24h_usd": 27152125,
+          "change_24h_pct": -0.69769,
+          "change_7d_pct": -8.4556,
           "ath": 8.25,
           "atl": 0.519364,
-          "last_updated": "2026-10-25T04:19:57.000Z"
+          "last_updated": "2026-10-26T04:22:54.000Z"
         },
         {
           "id": "hedera-hashgraph",
           "symbol": "HBAR",
           "name": "Hedera",
           "rank": 32,
-          "price_usd": 0.078084,
-          "market_cap_usd": 3462343858,
-          "volume_24h_usd": 60391490,
-          "change_24h_pct": 0.56249,
-          "change_7d_pct": -8.7566,
+          "price_usd": 0.076688,
+          "market_cap_usd": 3398785498,
+          "volume_24h_usd": 54132320,
+          "change_24h_pct": -1.93791,
+          "change_7d_pct": -9.3657,
           "ath": 0.569229,
           "atl": 0.00986111,
-          "last_updated": "2026-10-25T04:19:57.000Z"
+          "last_updated": "2026-10-26T04:22:54.000Z"
         },
         {
           "id": "tether-gold",
           "symbol": "XAUT",
           "name": "Tether Gold",
           "rank": 33,
-          "price_usd": 3993.27,
-          "market_cap_usd": 3230539250,
-          "volume_24h_usd": 118325859,
-          "change_24h_pct": 0.01903,
-          "change_7d_pct": -3.8261,
+          "price_usd": 4006.55,
+          "market_cap_usd": 3241275441,
+          "volume_24h_usd": 152021257,
+          "change_24h_pct": 0.32748,
+          "change_7d_pct": -3.8597,
           "ath": 5504.62,
           "atl": 1447.84,
-          "last_updated": "2026-10-25T04:19:57.000Z"
+          "last_updated": "2026-10-26T04:22:54.000Z"
         },
         {
           "id": "global-dollar",
@@ -485,13 +485,13 @@
           "name": "Global Dollar",
           "rank": 34,
           "price_usd": 1.0,
-          "market_cap_usd": 3146461718,
-          "volume_24h_usd": 311160894,
-          "change_24h_pct": 0.00367,
-          "change_7d_pct": 0.0038,
+          "market_cap_usd": 3145316804,
+          "volume_24h_usd": 401777585,
+          "change_24h_pct": -0.00489,
+          "change_7d_pct": -0.0076,
           "ath": 1.65,
           "atl": 0.907561,
-          "last_updated": "2026-10-25T04:19:57.000Z"
+          "last_updated": "2026-10-26T04:22:54.000Z"
         },
         {
           "id": "paypal-usd",
@@ -499,97 +499,97 @@
           "name": "PayPal USD",
           "rank": 35,
           "price_usd": 1.0,
-          "market_cap_usd": 3036546044,
-          "volume_24h_usd": 10062717,
-          "change_24h_pct": -0.01216,
-          "change_7d_pct": 0.0401,
+          "market_cap_usd": 3031144716,
+          "volume_24h_usd": 9935210,
+          "change_24h_pct": -0.01779,
+          "change_7d_pct": 0.0277,
           "ath": 1.021,
           "atl": 0.959426,
-          "last_updated": "2026-10-25T04:19:57.000Z"
+          "last_updated": "2026-10-26T04:22:54.000Z"
         },
         {
           "id": "shiba-inu",
           "symbol": "SHIB",
           "name": "Shiba Inu",
           "rank": 36,
-          "price_usd": 4.93e-06,
-          "market_cap_usd": 2905685853,
-          "volume_24h_usd": 43678642,
-          "change_24h_pct": -1.16191,
-          "change_7d_pct": -0.7633,
+          "price_usd": 4.84e-06,
+          "market_cap_usd": 2846329326,
+          "volume_24h_usd": 40315365,
+          "change_24h_pct": -1.92117,
+          "change_7d_pct": -4.131,
           "ath": 8.616e-05,
           "atl": 5.6366e-11,
-          "last_updated": "2026-10-25T04:19:57.000Z"
+          "last_updated": "2026-10-26T04:22:54.000Z"
         },
         {
           "id": "bittensor",
           "symbol": "TAO",
           "name": "Bittensor",
           "rank": 37,
-          "price_usd": 252.32,
-          "market_cap_usd": 2861324849,
-          "volume_24h_usd": 107142686,
-          "change_24h_pct": -0.60943,
-          "change_7d_pct": -6.1998,
+          "price_usd": 249.2,
+          "market_cap_usd": 2824761449,
+          "volume_24h_usd": 78593860,
+          "change_24h_pct": -1.31298,
+          "change_7d_pct": -8.7105,
           "ath": 757.6,
           "atl": 30.83,
-          "last_updated": "2026-10-25T04:19:57.000Z"
-        },
-        {
-          "id": "crypto-com-chain",
-          "symbol": "CRO",
-          "name": "Cronos",
-          "rank": 38,
-          "price_usd": 0.055223,
-          "market_cap_usd": 2801926335,
-          "volume_24h_usd": 5860300,
-          "change_24h_pct": -0.84162,
-          "change_7d_pct": -2.5475,
-          "ath": 0.891544,
-          "atl": 0.0121196,
-          "last_updated": "2026-10-25T04:19:57.000Z"
+          "last_updated": "2026-10-26T04:22:54.000Z"
         },
         {
           "id": "quant-network",
           "symbol": "QNT",
           "name": "Quant",
-          "rank": 39,
-          "price_usd": 183.63,
-          "market_cap_usd": 2673477836,
-          "volume_24h_usd": 43656751,
-          "change_24h_pct": 1.09687,
-          "change_7d_pct": -6.5046,
+          "rank": 38,
+          "price_usd": 190.62,
+          "market_cap_usd": 2774325972,
+          "volume_24h_usd": 79267913,
+          "change_24h_pct": 3.24839,
+          "change_7d_pct": -1.4997,
           "ath": 427.42,
           "atl": 0.215773,
-          "last_updated": "2026-10-25T04:19:57.000Z"
+          "last_updated": "2026-10-26T04:22:54.000Z"
         },
         {
           "id": "ethena",
           "symbol": "ENA",
           "name": "Ethena",
-          "rank": 40,
-          "price_usd": 0.19606,
-          "market_cap_usd": 2627996733,
-          "volume_24h_usd": 449085277,
-          "change_24h_pct": -1.52978,
-          "change_7d_pct": 2.7406,
+          "rank": 39,
+          "price_usd": 0.203663,
+          "market_cap_usd": 2728445716,
+          "volume_24h_usd": 394419238,
+          "change_24h_pct": 3.74087,
+          "change_7d_pct": 5.7168,
           "ath": 1.52,
           "atl": 0.070228,
-          "last_updated": "2026-10-25T04:19:57.000Z"
+          "last_updated": "2026-10-26T04:22:54.000Z"
+        },
+        {
+          "id": "crypto-com-chain",
+          "symbol": "CRO",
+          "name": "Cronos",
+          "rank": 40,
+          "price_usd": 0.053767,
+          "market_cap_usd": 2728195291,
+          "volume_24h_usd": 4255548,
+          "change_24h_pct": -2.64373,
+          "change_7d_pct": -5.2564,
+          "ath": 0.891544,
+          "atl": 0.0121196,
+          "last_updated": "2026-10-26T04:22:54.000Z"
         },
         {
           "id": "bitway",
           "symbol": "BTW",
           "name": "Bitway",
           "rank": 41,
-          "price_usd": 1.73,
-          "market_cap_usd": 2604370969,
-          "volume_24h_usd": 3353563,
-          "change_24h_pct": -1.60866,
-          "change_7d_pct": -26.1309,
+          "price_usd": 1.65,
+          "market_cap_usd": 2482956179,
+          "volume_24h_usd": 5535433,
+          "change_24h_pct": -4.60011,
+          "change_7d_pct": -26.4767,
           "ath": 2.77,
           "atl": 0.00911805,
-          "last_updated": "2026-10-25T04:19:57.000Z"
+          "last_updated": "2026-10-26T04:22:54.000Z"
         },
         {
           "id": "ripple-usd",
@@ -597,13 +597,13 @@
           "name": "Ripple USD",
           "rank": 42,
           "price_usd": 1.0,
-          "market_cap_usd": 2467695297,
-          "volume_24h_usd": 169120206,
-          "change_24h_pct": 0.01727,
-          "change_7d_pct": 0.0044,
+          "market_cap_usd": 2468869646,
+          "volume_24h_usd": 376704089,
+          "change_24h_pct": -0.00402,
+          "change_7d_pct": 0.0075,
           "ath": 1.073,
           "atl": 0.962292,
-          "last_updated": "2026-10-25T04:19:57.000Z"
+          "last_updated": "2026-10-26T04:22:54.000Z"
         },
         {
           "id": "hashnote-usyc",
@@ -617,7 +617,7 @@
           "change_7d_pct": 0.065,
           "ath": 1.14,
           "atl": 1.026,
-          "last_updated": "2026-10-25T04:19:57.000Z"
+          "last_updated": "2026-10-26T04:22:54.000Z"
         },
         {
           "id": "ondo-us-dollar-yield",
@@ -625,33 +625,47 @@
           "name": "Ondo US Dollar Yield",
           "rank": 44,
           "price_usd": 1.15,
-          "market_cap_usd": 2367937176,
-          "volume_24h_usd": 2333691,
-          "change_24h_pct": -0.17036,
-          "change_7d_pct": -0.1883,
+          "market_cap_usd": 2371703665,
+          "volume_24h_usd": 1794365,
+          "change_24h_pct": -0.04347,
+          "change_7d_pct": 0.0913,
           "ath": 1.26,
           "atl": 0.934184,
-          "last_updated": "2026-10-25T04:19:57.000Z"
+          "last_updated": "2026-10-26T04:22:54.000Z"
         },
         {
           "id": "okb",
           "symbol": "OKB",
           "name": "OKB",
           "rank": 45,
-          "price_usd": 108.1,
-          "market_cap_usd": 2269945765,
-          "volume_24h_usd": 25144786,
-          "change_24h_pct": -1.78816,
-          "change_7d_pct": -6.5024,
+          "price_usd": 107.39,
+          "market_cap_usd": 2254992334,
+          "volume_24h_usd": 17475347,
+          "change_24h_pct": -0.76721,
+          "change_7d_pct": -6.196,
           "ath": 228.74,
           "atl": 0.580608,
-          "last_updated": "2026-10-25T04:19:57.000Z"
+          "last_updated": "2026-10-26T04:22:54.000Z"
+        },
+        {
+          "id": "memecore",
+          "symbol": "M",
+          "name": "MemeCore",
+          "rank": 46,
+          "price_usd": 0.956396,
+          "market_cap_usd": 2190766611,
+          "volume_24h_usd": 1818528,
+          "change_24h_pct": 5.56457,
+          "change_7d_pct": 27.7153,
+          "ath": 5.64,
+          "atl": 0.04746135,
+          "last_updated": "2026-10-26T04:22:54.000Z"
         },
         {
           "id": "blackrock-usd-institutional-digital-liquidity-fund",
           "symbol": "BUIDL",
           "name": "BlackRock USD Institutional Digital Liquidity Fund",
-          "rank": 46,
+          "rank": 47,
           "price_usd": 1.0,
           "market_cap_usd": 2182443462,
           "volume_24h_usd": 0.0,
@@ -659,71 +673,62 @@
           "change_7d_pct": 0.0,
           "ath": 1.0,
           "atl": 1.0,
-          "last_updated": "2026-10-25T04:19:57.000Z"
+          "last_updated": "2026-10-26T04:22:54.000Z"
         },
         {
           "id": "aave",
           "symbol": "AAVE",
           "name": "Aave",
-          "rank": 47,
-          "price_usd": 137.63,
-          "market_cap_usd": 2124511177,
-          "volume_24h_usd": 216802505,
-          "change_24h_pct": -4.4088,
-          "change_7d_pct": -9.6075,
+          "rank": 48,
+          "price_usd": 134.58,
+          "market_cap_usd": 2076175969,
+          "volume_24h_usd": 163981843,
+          "change_24h_pct": -2.35035,
+          "change_7d_pct": -11.9188,
           "ath": 661.69,
           "atl": 26.02,
-          "last_updated": "2026-10-25T04:19:57.000Z"
-        },
-        {
-          "id": "memecore",
-          "symbol": "M",
-          "name": "MemeCore",
-          "rank": 48,
-          "price_usd": 0.907027,
-          "market_cap_usd": 2077353959,
-          "volume_24h_usd": 2741684,
-          "change_24h_pct": -4.99035,
-          "change_7d_pct": 23.7839,
-          "ath": 5.64,
-          "atl": 0.04746135,
-          "last_updated": "2026-10-25T04:19:57.000Z"
+          "last_updated": "2026-10-26T04:22:54.000Z"
         },
         {
           "id": "ondo-finance",
           "symbol": "ONDO",
           "name": "Ondo",
           "rank": 49,
-          "price_usd": 0.409544,
-          "market_cap_usd": 1994062273,
-          "volume_24h_usd": 85261478,
-          "change_24h_pct": -1.48439,
-          "change_7d_pct": -7.0631,
+          "price_usd": 0.403195,
+          "market_cap_usd": 1962170618,
+          "volume_24h_usd": 73002219,
+          "change_24h_pct": -1.62409,
+          "change_7d_pct": -8.0918,
           "ath": 2.14,
           "atl": 0.082171,
-          "last_updated": "2026-10-25T04:19:57.000Z"
+          "last_updated": "2026-10-26T04:22:54.000Z"
         },
         {
           "id": "pump-fun",
           "symbol": "PUMP",
           "name": "Pump.fun",
           "rank": 50,
-          "price_usd": 0.0043071,
-          "market_cap_usd": 1985962742,
-          "volume_24h_usd": 102898118,
-          "change_24h_pct": 0.59288,
-          "change_7d_pct": -1.3495,
+          "price_usd": 0.00416526,
+          "market_cap_usd": 1920391724,
+          "volume_24h_usd": 82700327,
+          "change_24h_pct": -3.39203,
+          "change_7d_pct": -6.8536,
           "ath": 0.00881908,
           "atl": 0.00115473,
-          "last_updated": "2026-10-25T04:19:57.000Z"
+          "last_updated": "2026-10-26T04:22:54.000Z"
         }
       ]
     },
     "fear_greed": {
       "source": "alternative_me_fng",
-      "fetched_at": "2026-10-25T04:21:45Z",
+      "fetched_at": "2026-10-26T04:24:59Z",
       "count": 7,
       "items": [
+        {
+          "value": 50,
+          "classification": "Neutral",
+          "timestamp": "1792972800"
+        },
         {
           "value": 54,
           "classification": "Neutral",
@@ -753,17 +758,12 @@
           "value": 55,
           "classification": "Greed",
           "timestamp": "1792454400"
-        },
-        {
-          "value": 59,
-          "classification": "Greed",
-          "timestamp": "1792368000"
         }
       ]
     },
     "fx": {
       "source": "frankfurter_ecb",
-      "fetched_at": "2026-10-25T04:21:45Z",
+      "fetched_at": "2026-10-26T04:24:59Z",
       "base": "USD",
       "date": "2026-10-23",
       "rates": {
@@ -776,156 +776,156 @@
     },
     "defillama": {
       "source": "defillama_chains",
-      "fetched_at": "2026-10-25T04:21:46Z",
+      "fetched_at": "2026-10-26T04:24:59Z",
       "count": 25,
       "items": [
         {
           "name": "Ethereum",
-          "tvl_usd": 49033955737.00636,
+          "tvl_usd": 48410274276.96626,
           "token_symbol": "ETH",
           "gecko_id": "ethereum"
         },
         {
           "name": "Base",
-          "tvl_usd": 6068875043.75634,
+          "tvl_usd": 5981039280.747243,
           "token_symbol": null,
           "gecko_id": null
         },
         {
-          "name": "Solana",
-          "tvl_usd": 5797691667.82269,
-          "token_symbol": "SOL",
-          "gecko_id": "solana"
-        },
-        {
           "name": "BSC",
-          "tvl_usd": 5792695790.468209,
+          "tvl_usd": 5768391655.92225,
           "token_symbol": "BNB",
           "gecko_id": "binancecoin"
         },
         {
+          "name": "Solana",
+          "tvl_usd": 5724741121.288205,
+          "token_symbol": "SOL",
+          "gecko_id": "solana"
+        },
+        {
           "name": "Tron",
-          "tvl_usd": 5481912238.121755,
+          "tvl_usd": 5454660768.591737,
           "token_symbol": "TRX",
           "gecko_id": "tron"
         },
         {
           "name": "Bitcoin",
-          "tvl_usd": 4323921458.775828,
+          "tvl_usd": 4260650728.384857,
           "token_symbol": "BTC",
           "gecko_id": "bitcoin"
         },
         {
           "name": "Hyperliquid L1",
-          "tvl_usd": 2383780551.930195,
+          "tvl_usd": 2368535978.877906,
           "token_symbol": "HYPE",
           "gecko_id": "hyperliquid"
         },
         {
           "name": "Arbitrum",
-          "tvl_usd": 1456330353.6627066,
+          "tvl_usd": 1461212149.6475914,
           "token_symbol": "ARB",
           "gecko_id": "arbitrum"
         },
         {
           "name": "Robinhood Chain",
-          "tvl_usd": 1133220698.845738,
+          "tvl_usd": 1132290405.6802611,
           "token_symbol": null,
           "gecko_id": null
         },
         {
           "name": "Monad",
-          "tvl_usd": 984724664.233869,
+          "tvl_usd": 984515956.7452636,
           "token_symbol": "MON",
           "gecko_id": "monad"
         },
         {
           "name": "Polygon",
-          "tvl_usd": 734940098.7742093,
+          "tvl_usd": 719459449.0395778,
           "token_symbol": "POL",
           "gecko_id": "polygon-ecosystem-token"
         },
         {
           "name": "Arc",
-          "tvl_usd": 629411992.54021,
+          "tvl_usd": 625087915.9432957,
           "token_symbol": null,
           "gecko_id": null
         },
         {
-          "name": "Avalanche",
-          "tvl_usd": 564094312.0405301,
-          "token_symbol": "AVAX",
-          "gecko_id": "avalanche-2"
-        },
-        {
           "name": "Plasma",
-          "tvl_usd": 561308260.3825002,
+          "tvl_usd": 563907317.6200025,
           "token_symbol": "XPL",
           "gecko_id": "plasma"
         },
         {
+          "name": "Avalanche",
+          "tvl_usd": 555359995.2973732,
+          "token_symbol": "AVAX",
+          "gecko_id": "avalanche-2"
+        },
+        {
           "name": "Sui",
-          "tvl_usd": 478204499.6253995,
+          "tvl_usd": 470795320.95415443,
           "token_symbol": "SUI",
           "gecko_id": "sui"
         },
         {
           "name": "OP Mainnet",
-          "tvl_usd": 419087458.84652615,
+          "tvl_usd": 411081028.28622836,
           "token_symbol": "OP",
           "gecko_id": "optimism"
         },
         {
           "name": "Anubis",
-          "tvl_usd": 333732922.36052316,
+          "tvl_usd": 329431160.4558085,
           "token_symbol": null,
           "gecko_id": null
         },
         {
           "name": "Stellar",
-          "tvl_usd": 231650658.45901042,
+          "tvl_usd": 227827529.90669262,
           "token_symbol": "XLM",
           "gecko_id": "stellar"
         },
         {
           "name": "Near",
-          "tvl_usd": 208522062.1818564,
+          "tvl_usd": 208272247.00615656,
           "token_symbol": "NEAR",
           "gecko_id": "near"
         },
         {
           "name": "Ink",
-          "tvl_usd": 200977585.91253904,
+          "tvl_usd": 199409088.37124217,
           "token_symbol": null,
           "gecko_id": null
         },
         {
           "name": "Flare",
-          "tvl_usd": 180353967.1610109,
+          "tvl_usd": 179180914.11174607,
           "token_symbol": "FLR",
           "gecko_id": "flare-networks"
         },
         {
           "name": "X Layer",
-          "tvl_usd": 163099579.99798098,
+          "tvl_usd": 162979517.00676435,
           "token_symbol": null,
           "gecko_id": "okb"
         },
         {
           "name": "Cronos",
-          "tvl_usd": 135115807.71233052,
+          "tvl_usd": 132794487.77217095,
           "token_symbol": "CRO",
           "gecko_id": "crypto-com-chain"
         },
         {
           "name": "Provenance",
-          "tvl_usd": 114169458.48324339,
+          "tvl_usd": 115844911.17151345,
           "token_symbol": "HASH",
           "gecko_id": "hash-2"
         },
         {
           "name": "Mantle",
-          "tvl_usd": 112285849.91050602,
+          "tvl_usd": 112171850.17144328,
           "token_symbol": "MNT",
           "gecko_id": "mantle"
         }
@@ -933,270 +933,267 @@
     },
     "hackernews": {
       "source": "hackernews",
-      "fetched_at": "2026-10-25T04:21:47Z",
+      "fetched_at": "2026-10-26T04:25:01Z",
       "count": 12,
       "items": [
         {
-          "id": 50227892,
-          "title": "Xbox Turns Down Netflix $500M Offer",
-          "url": "https://www.darkhorizons.com/xbox-turns-down-netflix-500-million-offer/",
-          "score": 57,
-          "by": "xoxxala",
-          "descendants": 37,
-          "time": 1792897553
+          "id": 50238708,
+          "title": "Show HN: TitleArt – Make text like it's 1997",
+          "url": "https://titleart.dvy.io/",
+          "score": 30,
+          "by": "davidbarker",
+          "descendants": 8,
+          "time": 1792985037
         },
         {
-          "id": 50225695,
-          "title": "We should be more ambitious with the software we build",
-          "url": "https://danluu.com/ambitious/",
-          "score": 263,
-          "by": "ltratt",
-          "descendants": 225,
-          "time": 1792878451
+          "id": 50234474,
+          "title": "Dolly Parton's Imagination Library",
+          "url": "https://imaginationlibrary.com/",
+          "score": 456,
+          "by": "jumploops",
+          "descendants": 85,
+          "time": 1792952634
         },
         {
-          "id": 50228167,
-          "title": "Five Qwen3.8-27B models outperform Fable 5 Using GVS5H Harness",
-          "url": "https://github.com/slee-persis/GVS5H",
-          "score": 6,
-          "by": "rzk",
-          "descendants": 0,
-          "time": 1792900561
+          "id": 50238739,
+          "title": "PaperPilot – Zero-Cloud, Pure-Rust PDF Engine with WASM and MCP",
+          "url": "https://github.com/KrushnaVardhanReddy/PaperPilot",
+          "score": 13,
+          "by": "vardhan1237",
+          "descendants": 1,
+          "time": 1792985345
         },
         {
-          "id": 50227356,
-          "title": "Cerebras Deploys Trillion-Parameter AI Models",
-          "url": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
-          "score": 38,
-          "by": "gmays",
-          "descendants": 10,
-          "time": 1792892029
-        },
-        {
-          "id": 50224100,
-          "title": "The Goose Programming Language",
-          "url": "https://aardappel.github.io/goose/",
-          "score": 293,
-          "by": "bobbydigitales",
-          "descendants": 185,
-          "time": 1792868815
-        },
-        {
-          "id": 50224422,
-          "title": "Listen and read USA nuclear forces Emergency Action Messages, heard on 11175 kHz",
-          "url": "https://missileer.watch",
-          "score": 143,
-          "by": "liotier",
-          "descendants": 94,
-          "time": 1792871007
-        },
-        {
-          "id": 50226419,
-          "title": "America has lost 200k of jobs in media, film and the arts. How much is AI?",
-          "url": "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class",
-          "score": 239,
-          "by": "gnabgib",
-          "descendants": 247,
-          "time": 1792883514
-        },
-        {
-          "id": 50225674,
-          "title": "Small Programs and Languages",
-          "url": "https://ratfactor.com/cards/pl-small",
-          "score": 61,
-          "by": "andsoitis",
-          "descendants": 5,
-          "time": 1792878263
-        },
-        {
-          "id": 50226646,
-          "title": "FindMyWeb: Apple Find My, reverse enginiered",
-          "url": "https://codeberg.org/Misom/FindMyWeb",
-          "score": 38,
-          "by": "Velocifyer",
+          "id": 50228115,
+          "title": "Show HN: A Truly Modular Keyboard",
+          "url": "https://github.com/notaroomba/keybytes",
+          "score": 30,
+          "by": "NotARoomba",
           "descendants": 7,
-          "time": 1792885372
+          "time": 1792900076
         },
         {
-          "id": 50224210,
-          "title": "SpeedCrunch 1.1",
-          "url": "https://www.speedcrunch.org/",
-          "score": 101,
-          "by": "LordNibbler",
-          "descendants": 12,
-          "time": 1792869583
+          "id": 50197108,
+          "title": "Overgrown, when plants invade your abandoned tabs",
+          "url": "https://charliegerard.dev/blog/overgrown-extension/",
+          "score": 196,
+          "by": "speckx",
+          "descendants": 55,
+          "time": 1792684341
         },
         {
-          "id": 50226577,
-          "title": "Why Gopher in 2026?",
-          "url": "https://gopher.muffinlabs.com/sdf.org/users/nervtoji/phlog/001.txt",
-          "score": 44,
-          "by": "andsoitis",
-          "descendants": 12,
-          "time": 1792884799
+          "id": 50238763,
+          "title": "Behind the scenes at the NeXT Computer office",
+          "url": "https://exhibits.stanford.edu/menuez/browse/next-computer-inc?per_page=96&sort=pub_year_isi+asc%2C+title_sort+asc&view=masonry",
+          "score": 11,
+          "by": "Austin_Conlon",
+          "descendants": 4,
+          "time": 1792985471
         },
         {
-          "id": 50172432,
-          "title": "I Built a Stereo Vision Board for Hardware Hackers",
-          "url": "https://rootkitlabs.com/2026/10/06/i-built-a-stereo-vision-board-for-hardware-hackers/",
-          "score": 47,
-          "by": "machinehum",
+          "id": 50238557,
+          "title": "Brazil elections: Lula secures fourth term after dramatic comeback",
+          "url": "https://www.bbc.com/news/articles/cmvg7p001qj9o",
+          "score": 51,
+          "by": "gverrilla",
           "descendants": 2,
-          "time": 1792529152
+          "time": 1792983848
+        },
+        {
+          "id": 50237224,
+          "title": "Attention Is Not What You Need (2025)",
+          "url": "https://arxiv.org/abs/2512.19428",
+          "score": 53,
+          "by": "westurner",
+          "descendants": 18,
+          "time": 1792972325
+        },
+        {
+          "id": 50237078,
+          "title": "F-Zero X on Nintendo 3DS",
+          "url": "https://hypnotize.works/gdx-3ds/postmortem/index.html",
+          "score": 80,
+          "by": "bpierre",
+          "descendants": 40,
+          "time": 1792970850
+        },
+        {
+          "id": 50238088,
+          "title": "IBM CEO says open weight models are now irresistibly good and cheap on-prem",
+          "url": "https://www.theregister.com/systems/2026/10/22/ibm-ceo-says-open-weight-models-are-now-irresistibly-good-and-cheap-on-prem/5304640",
+          "score": 87,
+          "by": "Betelbuddy",
+          "descendants": 41,
+          "time": 1792979266
+        },
+        {
+          "id": 50235017,
+          "title": "Why I Am a Programmer",
+          "url": "https://www.alfie.wtf/programming/why-i-am-a-programmer.html",
+          "score": 165,
+          "by": "jruohonen",
+          "descendants": 57,
+          "time": 1792955491
+        },
+        {
+          "id": 50235738,
+          "title": "What goes into making an animated film?",
+          "url": "https://www.disneyanimation.com/process/",
+          "score": 115,
+          "by": "embedding-shape",
+          "descendants": 47,
+          "time": 1792960029
         }
       ]
     },
     "arxiv": {
       "source": "arxiv",
-      "fetched_at": "2026-10-25T04:21:47Z",
+      "fetched_at": "2026-10-26T04:25:01Z",
       "count": 12,
       "items": [
         {
-          "id": "http://arxiv.org/abs/2610.31670v1",
-          "title": "Sensorimotor Alignment: A Platonic Proxy for Embodied Policy Success",
-          "published": "2026-10-22T17:59:51Z",
+          "id": "http://arxiv.org/abs/2610.32978v1",
+          "title": "SceneBloom: Agentic Indoor Environment Generation with Realistic and Diverse Layouts for Embodied Learning",
+          "published": "2026-10-23T17:59:21Z",
           "authors": [
-            "Yunfei Xie",
-            "Howard H. Qian",
-            "Shiyi Lan",
-            "Kaiyu Hang",
-            "Chen Wei"
+            "Yuhan Liu",
+            "Lianhui Qin",
+            "Shenji Wan"
           ],
-          "summary": "Robotic foundation models are typically evaluated through costly closed-loop rollouts, which motivates cheap offline proxies for model capability. The Platonic Representation Hypothesis (PRH) suggests that as representations improve, different modalities such as vision and language converge toward a shared statistical model of reality. We ask whether motion trajectories form another such modality: as embodied models become more capable, should their sensory representations converge toward the st"
+          "summary": "Training generalizable embodied agents requires realistic, varied, and simulation-ready indoor environments. Language-guided methods support semantic planning and object-level reasoning, but precise spatial grounding remains difficult. Visual generative models offer rich priors over plausible arrangements, yet their outputs require geometric reasoning to become physically valid 3D scenes. We introduce SceneBloom, an agentic framework that combines visual layout sampling with contract-guided 3D c"
         },
         {
-          "id": "http://arxiv.org/abs/2610.31667v1",
-          "title": "Direct Pass@$k$ Optimization for Thought Pruning: Balancing Quality and Diversity in Test-Time Reasoning",
-          "published": "2026-10-22T17:59:48Z",
+          "id": "http://arxiv.org/abs/2610.32971v1",
+          "title": "RobustRLlib: A Unified Library and Benchmark for Robust Reinforcement Learning Algorithms",
+          "published": "2026-10-23T17:57:22Z",
           "authors": [
-            "Mahdi Salmani",
-            "Adel Javanmard",
-            "Devansh Gupta",
-            "Meisam Razaviyayn"
+            "Xi Chen",
+            "Fengqi Hu",
+            "Zeyu Shen",
+            "Jiaying Xu",
+            "Shangding Gu",
+            "Pan Xu",
+            "Anqi Liu",
+            "Laixi Shi"
           ],
-          "summary": "Test-time scaling has emerged as a key inference strategy for reasoning models, where a model generates a large number of candidate solutions in the hope of finding at least one correct solution. Running all candidate solutions to completion can be computationally demanding, so recent work prunes the candidate pool after generating only a short prefix, committing further computation only to the surviving candidates. Existing pruning strategies divide broadly into two categories: Quality-based me"
+          "summary": "Robust reinforcement learning (RL) is critical for reliable real-world deployment, where policies may fail under diverse shifts and disruptions. Existing robust RL algorithms offer a rich set of mechanisms and principles, yet two major barriers limit their broader potential: limited algorithm reusability and an unclear empirical capability boundary. We introduce RobustRLlib, an algorithm-centric library and benchmark that addresses both challenges. It integrates 17 representative robust online, "
         },
         {
-          "id": "http://arxiv.org/abs/2610.31663v1",
-          "title": "Phase Transition from Random Features to Fully Trainable Networks",
-          "published": "2026-10-22T17:59:29Z",
+          "id": "http://arxiv.org/abs/2610.32969v1",
+          "title": "DexPort: A Hand-Held Skill Interface for Dexterous Hand Data Collection",
+          "published": "2026-10-23T17:56:28Z",
           "authors": [
-            "Xin He",
-            "Huan Lao",
-            "Xiliang Lu",
-            "Shijun Zhang"
+            "Amber Xie",
+            "Jiawei Fu",
+            "Xiaofeng Guo",
+            "Carmelo Sferrazza",
+            "Guanya Shi",
+            "Haozhi Qi"
           ],
-          "summary": "Constructing accurate and computationally tractable approximation spaces is a fundamental task in scientific computing. Partially trainable neural networks bridge fixed random features and fully adaptive representations. This paper quantifies a phase transition pattern in approximation bounds and observes analogous behavior in training errors: a rapid but smooth initial improvement followed by diminishing returns, with a sharper transition under greater initialization mismatch. Under polynomial "
+          "summary": "Collecting high-quality demonstrations remains a central bottleneck for learning dexterous manipulation. Teleoperation records executable robot actions, but it requires a complete robot setup and places the burden of coordinating many finger joints on the operator. Human demonstrations are easier to collect, but their motions must be estimated and retargeted to the robot, and they do not directly provide robot actions. In this paper, we introduce DexPort, a portable data-collection interface for"
         },
         {
-          "id": "http://arxiv.org/abs/2610.31662v1",
-          "title": "Reliable AI-Assisted Decisions via Selective Auditing",
-          "published": "2026-10-22T17:59:22Z",
+          "id": "http://arxiv.org/abs/2610.32964v1",
+          "title": "Flownomaly: Single-Step Conditional-Mean Recovery for Few-Shot Anomaly Detection",
+          "published": "2026-10-23T17:53:30Z",
           "authors": [
-            "Isaac Gibbs",
-            "Elise L. Han",
-            "Ryan J. Tibshirani",
-            "Tijana Zrnic"
+            "Bernardo Perrone Ribeiro",
+            "Erkut Akdag",
+            "Egor Bondarev"
           ],
-          "summary": "We consider online monitoring of an AI system that produces a sequence of decisions. At each round, the system outputs a proposed decision together with a confidence score estimating the trustworthiness of the decision. The decision and confidence score need not be produced by the same model: for example, one agent may propose a decision, while a separate verifier agent evaluates it and outputs a correctness or safety score. Based on this information, we must decide whether to accept the AI deci"
+          "summary": "Few-shot industrial anomaly detection requires modeling category-specific normality from only a handful of defect-free images. Common approaches tie inference to stored exemplars, impose rigid linear structure, or risk reproducing anomalous content. Flownomaly instead casts the problem as normal-counterpart recovery in frozen DINOv2 feature space. Given normal supports, a velocity field is learned through conditional flow matching over frozen patch tokens to transport Gaussian noise toward norma"
         },
         {
-          "id": "http://arxiv.org/abs/2610.31659v1",
-          "title": "SpectralCanary: Embarrassingly Simple Low-Frequency Traces for T2I Dataset-Use Auditing",
-          "published": "2026-10-22T17:59:03Z",
+          "id": "http://arxiv.org/abs/2610.32955v1",
+          "title": "Measure Before You Train: Typed Decision Models vs. a Classical Baseline vs. a Generative LLM for Routing a Personal Multilingual Inbox",
+          "published": "2026-10-23T17:49:43Z",
           "authors": [
-            "Sy-Tuyen Ho",
-            "Anirudh Satheesh",
-            "Soham Chawathe",
-            "Huy Nghiem",
-            "Yongkyun Lee",
-            "Andrew Adams Schoen",
-            "Furong Huang"
+            "Federico Lucca"
           ],
-          "summary": "Auditing whether a text-to-image (T2I) model was fine-tuned on a particular image collection is difficult: a model can absorb collection-level visual characteristics without reproducing training images. Proactive dataset-use auditing plants a shared signal in a dataset before release, then later checks whether that signal appears in a suspect model's generated outputs. Existing approaches often trade off verifiability, fidelity, robustness, and deployability. We introduce $\\textbf{SpectralCanary"
+          "summary": "Personal email agents decide, for every message, what it is, whether it is urgent, whether to draft a reply, create a task, or ignore it. Their error rate is rarely measured: the stored labels were written by the system itself. We present Foyer, a self-hosted personal inbox agent in daily use, and a measurement protocol (stratified sampling, frozen snapshots, thread-grouped splits, pre-registered hypotheses, human labels in the agent's review loop) that yields ground truth before any training. O"
         },
         {
-          "id": "http://arxiv.org/abs/2610.31657v1",
-          "title": "Cost-Aware Abstention for LLM-Based IT Ticket Classification",
-          "published": "2026-10-22T17:58:52Z",
+          "id": "http://arxiv.org/abs/2610.32951v1",
+          "title": "Where Rounding Happens Matters: Rounding-Location Alignment Stabilizes LLM Reinforcement Learning",
+          "published": "2026-10-23T17:45:03Z",
           "authors": [
-            "Sachin Gupta"
+            "Yijing Ke",
+            "Tianle Cai",
+            "Ruosong Wang"
           ],
-          "summary": "Wrong automatic routing of an IT support ticket can cost more than human triage. We evaluate cost-aware abstention as an offline, cost-conditional readiness assessment: select a routing policy on calibration data under explicit costs, then evaluate that frozen policy once on held-out test data. On a public 47,837-ticket, eight-class corpus, we compare four trained non-LLM classifiers with four large language models under zero- and few-shot prompting. Under the illustrative cost model (c_ok, c_tr"
+          "summary": "Reinforcement learning for large language models often uses separate systems for inference and training. Even with identical weights and BF16 tensors, implementation differences can make an intended on-policy update off-policy and destabilize training. Existing remedies align the entire inference and training stacks, change global precision, or modify the learning algorithm. We ask whether aligning selected parts of the execution stack can stabilize BF16 RL while other implementation differences"
         },
         {
-          "id": "http://arxiv.org/abs/2610.31656v1",
-          "title": "METTA: Memory-Enhanced Test-Time Adaptation for Meta-Reinforcement Learning",
-          "published": "2026-10-22T17:58:27Z",
+          "id": "http://arxiv.org/abs/2610.32948v1",
+          "title": "Beyond Discrete Tokens: Preserving Numerical Continuity in Medical Vision-Language Models",
+          "published": "2026-10-23T17:40:58Z",
           "authors": [
-            "Ali Najar",
-            "Hosein Hasani",
-            "Amir Kooshan Fattah",
-            "Yasamin Rajabi",
-            "Mahdieh Soleymani Baghshah"
+            "Dianye Huang",
+            "Jiamei Guo",
+            "Yue Zhou",
+            "Mingde Li",
+            "Yi Xiong",
+            "Wei Wang",
+            "Nassir Navab",
+            "Zhongliang Jiang"
           ],
-          "summary": "Meta-reinforcement learning aims to train agents that adapt quickly to unseen tasks from limited interaction, but this requires representing task evidence over long interaction histories. Classical recurrent agents compress experience into hidden states, while transformer-based agents retrieve from past trajectories at quadratic memory and computation cost. In this work, we propose Memory-Enhanced Test-Time Adaptation (METTA) for meta-reinforcement learning. It decomposes the fast adaptation pha"
+          "summary": "Objective: To develop a unified vision-language model for prompt-conditioned quantitative ultrasound measurement that addresses the mismatch between continuous measurement targets and discrete token-based numerical prediction. Methods: This article presents HAD-VLM, a hybrid autoregressive-diffusion framework that combines autoregressive text generation with continuous measurement prediction within a shared backbone. Visual prompt tuning adapts the vision encoder to ultrasound images. A diffusio"
         },
         {
-          "id": "http://arxiv.org/abs/2610.31650v1",
-          "title": "EpiSEM-Bench: Evaluating Safety and Evidence Recovery in LLM Agents under Missing Evidence",
-          "published": "2026-10-22T17:57:04Z",
+          "id": "http://arxiv.org/abs/2610.32945v1",
+          "title": "Monetizing Intelligence: Advertising and Subscription Design on LLM Platforms",
+          "published": "2026-10-23T17:39:42Z",
           "authors": [
-            "Qijin Zhang",
-            "Hanzhen Wang",
-            "Yuehan Zhao",
-            "Haoyu Dai",
-            "Yao Shu",
-            "Zhongxiang Dai",
-            "Shuang Qiu"
+            "Yuhang Ji",
+            "Fasheng Xu",
+            "Tianjun Feng"
           ],
-          "summary": "Tool-using language model agents rely on environmental facts to decide whether an action is permitted. When a tool response omits a safety-relevant fact, an agent may carry out a prohibited action even though the user request is benign and every returned statement is true. We introduce \\bench{}, an executable benchmark for evaluating unsafe execution, safety boundaries, and evidence recovery in LLM agents under missing evidence. It contains 300 matched unsafe/safe task pairs across six domains. "
+          "summary": "Large language model (LLM) platforms introducing advertising must decide how much capability ad revenue should fund and what consumers should pay to avoid ads. We study a monopolistic platform that jointly chooses costly response quality, advertising intensity, and subscription prices when advertising reduces user value but better service raises advertising returns. Three findings follow. First, when partly ad-supported and ad-free plans coexist, advertising can finance useful service for consum"
         },
         {
-          "id": "http://arxiv.org/abs/2610.31646v1",
-          "title": "Low-Bit N-Gram Embeddings for Language Models",
-          "published": "2026-10-22T17:56:13Z",
+          "id": "http://arxiv.org/abs/2610.32943v1",
+          "title": "Knowledge Distillation across Item and Code Spaces for Parallel Generative Recommendation",
+          "published": "2026-10-23T17:37:55Z",
           "authors": [
-            "Stephen Chung",
-            "Wenyu Du"
+            "Yixuan Xu",
+            "Hailin Liu",
+            "Linxiang Peng",
+            "Can Yang"
           ],
-          "summary": "Many recent open-weight language models use n-gram embedding tables to improve performance. These tables store learned representations of short token sequences, such as pairs or triples of consecutive tokens, which the model retrieves during processing. However, they can require substantial memory: DeepSeek-V4.1-Flash, for example, allocates 196 billion parameters to its Engram n-gram memory. We therefore investigate whether this memory cost can be reduced while preserving the performance improv"
+          "summary": "Generative recommendation with semantic IDs represents each item as a sequence of discrete codes derived from its semantic representation and predicts these codes to generate recommendations. Existing semantic-ID recommenders are typically trained with hard labels for the observed next item. Although such supervision identifies the target, it provides no explicit distributional information about alternative items conditioned on the same user history. Sequential recommenders can supply this item-"
         },
         {
-          "id": "http://arxiv.org/abs/2610.31642v1",
-          "title": "A Fix for Softmax and Cross-Entropy",
-          "published": "2026-10-22T17:54:56Z",
+          "id": "http://arxiv.org/abs/2610.32941v1",
+          "title": "If at First You Don't Succeed, Backtrack: Lightweight Recovery for Frozen VLAs",
+          "published": "2026-10-23T17:35:33Z",
           "authors": [
-            "Jonathan T. Barron",
-            "Dan Gnanapragasam",
-            "Michael Tschannen"
+            "Thomas Landeg",
+            "Thierry Tambe"
           ],
-          "summary": "Standard implementations of softmax, log-softmax, and cross-entropy have two numerical bugs. The first bug, Softmax Collapse, rounds the target logit's gradient to zero if that one logit is much larger than the others, resulting in gradients that no longer sum to zero. The second bug, Softmax Cancellation, occurs when student logits are close to teacher logits, and produces non-zero gradients even when the student and teacher logits are equal. We present simple implementations of log-softmax, so"
+          "summary": "Vision-Language-Action (VLA) models perform well on robotic manipulation, yet remain brittle once their own actions carry them into states their training data barely covers. Recovering from such failures usually requires recovery demonstrations, policy retraining, or a separate model at inference time. We introduce Backtrack, a lightweight failure detection and recovery mechanism for frozen VLAs that needs none of these. A small failure prediction head, trained only on outcome-labeled rollouts o"
         },
         {
-          "id": "http://arxiv.org/abs/2610.31639v1",
-          "title": "Causal Chain of Thought: Mitigating Attention Leakage via Context Isolation",
-          "published": "2026-10-22T17:52:56Z",
+          "id": "http://arxiv.org/abs/2610.32940v1",
+          "title": "Learning Positive Linear Combinations of ReLUs in Fully Polynomial Time",
+          "published": "2026-10-23T17:34:15Z",
           "authors": [
-            "Gabriele Dominici",
-            "Teague McMillan",
-            "Fazl Barez",
-            "Marc Langheinrich",
-            "Martin Gjoreski"
+            "Ilias Diakonikolas",
+            "Jelena Diakonikolas",
+            "Puqian Wang",
+            "Nikos Zarifis"
           ],
-          "summary": "Chain-of-thought (CoT) prompting elicits step-by-step rationales that appear to explain model predictions, but there is no guarantee these steps causally drive the final answer. In standard autoregressive generation, dense attention allows each reasoning step to attend to the full context, enabling the model to derive answers through direct lookup while generating plausible-sounding but post-hoc justifications. We introduce CausalCoT, an inference framework that enforces causal transparency by d"
+          "summary": "We study the fundamental problem of PAC learning positive linear combinations of $k$ arbitrary ReLU activations on $\\mathbb{R}^d$ with respect to the Gaussian distribution, in $L_2$ loss. We give the first fully-polynomial time algorithm for this learning task. Specifically, our algorithm draws $\\mathrm{poly}(d, k, 1/ε)$ samples, runs in $\\mathrm{poly}(d, k, 1/ε)$ time, and outputs a hypothesis that is $ε$-close to the target concept with high probability. All prior algorithms for this problem r"
         },
         {
-          "id": "http://arxiv.org/abs/2610.31633v1",
-          "title": "BeNice! Closing Looping's Inference-Memory Gap via KV-Sharing",
-          "published": "2026-10-22T17:49:44Z",
+          "id": "http://arxiv.org/abs/2610.32933v1",
+          "title": "Yalda-Embedding: Open Development of a Competitive Persian Retrieval Model",
+          "published": "2026-10-23T17:30:40Z",
           "authors": [
-            "Hayden Prairie",
-            "Jacob M. Ryan",
-            "Taylor Berg-Kirkpatrick",
-            "Daniel Y. Fu"
+            "Yalda Taheri",
+            "Mohammad Hassan Heydari",
+            "Armon Rasooli"
           ],
-          "summary": "Looped architectures scale quality while keeping parameter count fixed by repeatedly passing activations through the same block of layers. During inference, each recurrence generates independent KV-caches, causing memory to grow linearly. To address this challenge, prior work has proposed KV-sharing (i.e., sharing KV-caches across depth), finding that, in some cases, the KV-cache of the final recurrence can be shared with the earlier recurrences without quality loss, a property we denote as KV-s"
+          "summary": "Despite advances in multilingual text representations, effective dense retrieval for Persian remains constrained by the limited availability of language-specific training resources and compact embedding models. We present Yalda Embedding, a 595.8-million-parameter Persian retrieval model adapted from Qwen3-Embedding-0.6B using more than one million query-document pairs. On eight Persian retrieval tasks from FaMTEB, the model achieves the highest macro-average among the evaluated 0.6B models, sco"
         }
       ]
     }
